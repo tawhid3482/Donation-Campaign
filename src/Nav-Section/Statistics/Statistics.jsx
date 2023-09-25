@@ -1,16 +1,15 @@
 import { useLoaderData } from "react-router-dom";
-import { Cell, Pie, PieChart } from "recharts";
+import { Pie, PieChart, Tooltip } from "recharts";
 import PieChartShow from "./PieChartShow";
 
 const Statistics = () => {
-    const data = useLoaderData()
+    const data = useLoaderData();
 
 
     return (
         <div>
-           {
-            data.map(donation => <PieChartShow key={donation.id} donation={donation}></PieChartShow>)
-           }
+            {data.map(donation => <PieChartShow key={donation.id} donation={donation}></PieChartShow>)
+            }
         </div>
     );
 };
