@@ -1,8 +1,7 @@
-# React + Vite
+Question:> Add at least 3 Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ans-No:1>> in my project 1st features is the website is full responsive.
 
-Currently, two official plugins are available:
+Ans-No:2>> in my project i use the json data and use the loader option to load the the data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ans-No:2>> my website all card are not same color and same design i use the 4 category data card 4 type of color and design. 
