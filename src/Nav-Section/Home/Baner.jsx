@@ -1,3 +1,6 @@
+import { useLoaderData } from "react-router-dom";
+import useHook from "../../Hook/Hook";
+import { useEffect } from "react";
 
 const Baner = () => {
     const handleSeacrh = () => {
