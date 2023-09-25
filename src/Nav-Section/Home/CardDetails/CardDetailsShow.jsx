@@ -1,7 +1,16 @@
 import swal from "sweetalert";
 
 const CardDetailsShow = ({ donation }) => {
-    const { id, img, title, category_name, category_color, description, price } = donation || {}
+    const { id, img, title, category_name, category_color1,category_color2,category_color3,description,price } = donation || {};
+
+    const divStyle = {
+        backgroundColor: category_color1, 
+    };
+  
+    const divStyle3 = {
+        backgroundColor: category_color3, 
+    };
+    console.log(donation)
 
     const handleDonate = () => {
         const added = []
@@ -25,8 +34,8 @@ const CardDetailsShow = ({ donation }) => {
         }
     }
     return (
-        <div className="flex  mt-10 justify-center items-center">
-            <div className="relative flex w-4/5  flex-col rounded-xl bg-white bg-clip-border text-gray-700 ">
+        <div className="flex   mt-5 justify-center items-center">
+            <div  style={divStyle3} className=" py-10 relative flex w-4/5  flex-col rounded-xl bg-white bg-clip-border text-gray-700 ">
                 <div className="relative mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-blue-gray-500/40">
                     <img
                     className="w-full h-96"
@@ -35,8 +44,9 @@ const CardDetailsShow = ({ donation }) => {
                     />
                     <div className="p-6 mt-0 bg-gray-400">
                         <button
+                        style={divStyle}
                         onClick={handleDonate}
-                            className=" px-6 select-none rounded-lg bg-pink-500 py-3  text-center align-middle font-sans  font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none text-2xl  disabled:opacity-50 disabled:shadow-none"
+                            className=" px-6 select-none rounded-lg py-3  text-center align-middle font-sans  font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none text-2xl  disabled:opacity-50 disabled:shadow-none"
                             type="button"
                             data-ripple-light="true"
                         >
@@ -46,10 +56,10 @@ const CardDetailsShow = ({ donation }) => {
                     </div>
                 </div>
                 <div className="p-6">
-                    <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                        {title}
+                    <h5 style={{ color: category_color2 }} className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                        {category_name}
                     </h5>
-                    <p className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
+                    <p style={{ color: category_color2 }} className="block font-sans text-base font-normal leading-relaxed text-inherit antialiased">
                         {description}
                     </p>
                 </div>

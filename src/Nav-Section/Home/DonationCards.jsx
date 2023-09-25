@@ -1,36 +1,26 @@
 import { Link } from "react-router-dom";
 
 const DonationCards = ({ donation }) => {
-    const { id, img, title, category_name, category_color } = donation;
+    const { id, img, title, category_name, category_color1,category_color2,category_color3 } = donation || {};
+
+    const divStyle = {
+        backgroundColor: category_color1, 
+    };
   
-    // Define a function to lighten the color
-    const lightenColor = (color, alpha) => {
-        const hex = color.replace('#', '');
-        const r = parseInt(hex.slice(0, 2), 16);
-        const g = parseInt(hex.slice(2, 4), 16);
-        const b = parseInt(hex.slice(4, 6), 16);
-        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    const divStyle3 = {
+        backgroundColor: category_color3, 
     };
 
-    // Lighten the category_color (e.g., 0.8 for 80% lightness)
-    const lightenedColor = lightenColor(category_color, 0.8);
-
-    const cardStyle = {
-        backgroundColor: lightenedColor,
-    };
-    const cardColor = {
-        backgroundColor: category_color
-    }
 
     return (
-        <div className="">
+        <div className="" >
             <Link to={`/donation/${id}`}>
-
-                <div className={`card card-compact h-60 w-72 shadow-xl`}  >
-                    <figure><img src={img} alt="Shoes" /></figure>
+                <div style={divStyle3} className={`card card-compact h-72 w-72  shadow-xl`}>
+                    <figure ><img className="w-full" src={img} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">{category_name}</h2>
-                        <p>{title}</p>
+                        <span className="text-2xl text-center" style={divStyle}>{category_name}</span>
+
+                        <p className="text-3xl " style={{ color: category_color2 }}>{title}</p>
                     </div>
                 </div>
             </Link>
