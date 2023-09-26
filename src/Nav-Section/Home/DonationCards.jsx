@@ -1,26 +1,25 @@
 import { Link } from "react-router-dom";
 
 const DonationCards = ({ donation }) => {
-    const { id, img, title, category_name, category_color1,category_color2,category_color3 } = donation || {};
+    const { id, img, title, category_name, text_color, category_bg, card_bg, price } = donation || {};
 
     const divStyle = {
-        backgroundColor: category_color1, 
+        backgroundColor: category_bg,
     };
-  
+
     const divStyle3 = {
-        backgroundColor: category_color3, 
+        backgroundColor: card_bg, 
     };
-
-
+ 
     return (
         <div className="" >
             <Link to={`/donation/${id}`}>
                 <div style={divStyle3} className={`card card-compact h-72 w-72  shadow-xl`}>
-                    <figure ><img className="w-full" src={img} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <span className="text-2xl text-center" style={divStyle}>{category_name}</span>
+                    <figure ><img className="w-full" src={img} alt="" /></figure>
+                    <div className="my-4 p-3" style={{ color: text_color }}>
+                        <span className="text-xl text-left p-1" style={divStyle}>{category_name}</span>
 
-                        <p className="text-3xl " style={{ color: category_color2 }}>{title}</p>
+                        <p className="text-2xl " style={{ color: text_color }}>{title}</p>
                     </div>
                 </div>
             </Link>
