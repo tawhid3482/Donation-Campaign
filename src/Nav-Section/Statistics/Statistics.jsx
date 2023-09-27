@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useLoaderData } from "react-router-dom";
 import { Pie, PieChart, Tooltip, Cell,  } from "recharts";
 
@@ -26,6 +27,9 @@ const Statistics = () => {
     return (
      
             <div className="w-2/3 mx-auto">
+                  <Helmet>
+                <title>Donation - Statistice</title>
+            </Helmet>
             <div className="flex justify-center items-center">
                 <PieChart width={700} height={400}>
                     <Pie

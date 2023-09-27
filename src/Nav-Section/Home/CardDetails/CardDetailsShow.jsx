@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import swal from "sweetalert";
 
 const CardDetailsShow = ({ donation }) => {
@@ -32,6 +33,9 @@ const CardDetailsShow = ({ donation }) => {
     }
     return (
         <div className="flex mt-20  lg:mt-5 justify-center items-center">
+            <Helmet>
+                <title>Donation - Dontaion Details</title>
+            </Helmet>
             <div  className=" py-10 relative flex w-4/5  flex-col rounded-xl bg-white bg-clip-border text-gray-700 ">
                 <div className="relative mx-4 -mt-6  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-blue-gray-500/40">
                     <img

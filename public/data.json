@@ -11,25 +11,26 @@
         "price": 25.00
     },
     {
-        "id": 9,
-        "img": "https://media.istockphoto.com/id/472165353/photo/little-girl-holding-bowl-at-soup-kitchen-or-food-bank.jpg?s=612x612&w=0&k=20&c=_25T4X2NL96SQmkZemBPSPo0n5azVrWOARl4JxuxeuU=",
-        "title": "Food Donation 3",
-        "category_name": "Food ",
-        "category_bg": "rgba(248, 113, 71, 0.20)",
-        "text_color": "#F87147",
-        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "id": 2,
+        "img": "https://img.freepik.com/free-vector/clothing-donation-concept-flat-hand-drawn_52683-55267.jpg",
+        "title": "Cloth Donation 1",
+        "category_name": "Cloth ",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "text_color": "#79C23F",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
         "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
-        "price": 50.00
+        "price": 5.00
     },
     {
-        "id": 12,
-        "img": "https://blog.gale.com/wp-content/uploads/2017/11/big-leap.jpg",
-        "category_name": "Education ",
-        "category_bg": "rgba(255, 68, 74, 0.20)",
-        "text_color": "#FF444A",
-        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "id": 3,
+        "img": "https://st4.depositphotos.com/3051589/20377/i/450/depositphotos_203776756-stock-photo-doctor-healthcare-medical-donation-family.jpg",
+        "title": "Health Donation 1",
+        "category_name": "Health ",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "text_color": "#0052FF",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
         "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
-        "price": 70.00
+        "price": 100.00
     },
     {
         "id": 4,
@@ -39,6 +40,28 @@
         "category_bg": "rgba(255, 68, 74, 0.20)",
         "text_color": "#FF444A",
         "card_bg": "rgba(255, 68, 74, 0.15)",
+        "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
+        "price": 50.00
+    },
+    {
+        "id": 6,
+        "img": "https://thumbs.dreamstime.com/z/clothes-donation-box-18221565.jpg",
+        "title": "Cloth Donation 2",
+        "category_name": "Cloth ",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "text_color": "#79C23F",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
+        "price": 15.00
+    },
+    {
+        "id": 9,
+        "img": "https://media.istockphoto.com/id/472165353/photo/little-girl-holding-bowl-at-soup-kitchen-or-food-bank.jpg?s=612x612&w=0&k=20&c=_25T4X2NL96SQmkZemBPSPo0n5azVrWOARl4JxuxeuU=",
+        "title": "Food Donation 3",
+        "category_name": "Food ",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "text_color": "#F87147",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
         "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
         "price": 50.00
     },
@@ -54,15 +77,26 @@
         "price": 75.00
     },
     {
-        "id": 3,
-        "img": "https://st4.depositphotos.com/3051589/20377/i/450/depositphotos_203776756-stock-photo-doctor-healthcare-medical-donation-family.jpg",
-        "title": "Health Donation 1",
-        "category_name": "Health ",
-        "category_bg": "rgba(0, 82, 255, 0.20)",
-        "text_color": "#0052FF",
-        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "id": 10,
+        "img": "https://media.istockphoto.com/id/856564654/photo/donation-box-with-clothes.jpg?s=612x612&w=0&k=20&c=wd2TfIydgFL-K_WU40LoYtgIoE8y-N2OPA1SU_klnXY=",
+        "title": "Cloth Donation 3",
+        "category_name": "Cloth ",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "text_color": "#79C23F",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
         "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
-        "price": 100.00
+        "price": 8.00
+    },
+    {
+        "id": 12,
+        "img": "https://images.squarespace-cdn.com/content/v1/5a9ef467aa49a1f828aa0eff/1557958799509-8PC3UK8OD8DEJWPC7FZX/ronan.bennett.jpg?format=1000w",
+        "title": "Education Donation 3",
+        "category_name": "Education ",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "text_color": "#FF444A",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
+        "price": 50.00
     },
     {
         "id": 8,
@@ -87,28 +121,6 @@
         "price": 10.00
     },
     {
-        "id": 2,
-        "img": "https://img.freepik.com/free-vector/clothing-donation-concept-flat-hand-drawn_52683-55267.jpg",
-        "title": "Cloth Donation 1",
-        "category_name": "Cloth ",
-        "category_bg": "rgba(121, 194, 63, 0.20)",
-        "text_color": "#79C23F",
-        "card_bg": "rgba(121, 194, 63, 0.15)",
-        "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
-        "price": 5.00
-    },
-    {
-        "id": 6,
-        "img": "https://thumbs.dreamstime.com/z/clothes-donation-box-18221565.jpg",
-        "title": "Cloth Donation 2",
-        "category_name": "Cloth ",
-        "category_bg": "rgba(121, 194, 63, 0.20)",
-        "text_color": "#79C23F",
-        "card_bg": "rgba(121, 194, 63, 0.15)",
-        "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
-        "price": 15.00
-    },
-    {
         "id": 11,
         "img": "https://c0.wallpaperflare.com/preview/1023/625/239/blood-donation-blood-unit-of-blood-health.jpg",
         "title": "Health Donation 3",
@@ -118,18 +130,5 @@
         "card_bg": "rgba(0, 82, 255, 0.15)",
         "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
         "price": 120.00
-    },
-    {
-        "id": 10,
-        "img": "https://media.istockphoto.com/id/856564654/photo/donation-box-with-clothes.jpg?s=612x612&w=0&k=20&c=wd2TfIydgFL-K_WU40LoYtgIoE8y-N2OPA1SU_klnXY=",
-        "title": "Cloth Donation 3",
-        "category_name": "Cloth ",
-        "category_bg": "rgba(121, 194, 63, 0.20)",
-        "text_color": "#79C23F",
-        "card_bg": "rgba(121, 194, 63, 0.15)",
-        "description": "Your support means the world to us. It enables us to continue our mission and make a positive impact on the lives of those in need. With your help, we can create a brighter future for our community and beyond.",
-        "price": 8.00
     }
 ]
-
-
