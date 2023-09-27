@@ -1,7 +1,12 @@
 Question:> Add at least 3 Project features
 
-Ans-No:1>> in my project 1st features is the website is full responsive.
+Ans-No:1>> In my project, the first feature is a fully responsive website design.
 
-Ans-No:2>> in my project i use the json data and use the loader option to load the the data.
+Ans-No:2>> I utilize JSON data in my project and implement a loader option to efficiently load this data.
 
-Ans-No:2>> my website all card are not same color and same design i use the 4 category data card 4 type of color and design. 
+
+Ans-No:3>> To enhance visual appeal and categorization, I've designed my website with cards that vary in both color and layout. There are four different categories of data cards, each with a unique color scheme and design.
+
+
+
+

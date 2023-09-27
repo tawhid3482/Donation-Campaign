@@ -6,7 +6,7 @@ const Home = () => {
     const [donations] = useHook()
     return (
         <div>
-            <Baner></Baner>
+            <Baner donations={donations}></Baner>
             <Cards donations={donations}></Cards>
 
         </div>
