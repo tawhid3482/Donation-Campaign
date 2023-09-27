@@ -24,7 +24,8 @@ const Statistics = () => {
     ]
 
     return (
-        <div className="w-full mx-auto">
+     
+            <div className="w-2/3 mx-auto">
             <div className="flex justify-center items-center">
                 <PieChart width={700} height={400}>
                     <Pie
@@ -48,7 +49,8 @@ const Statistics = () => {
                 <p className="text-green-500">Your Donation: {totalPrice}%</p>
                 <p className="text-red-500">Total Donation: {finalTotal}%</p>
             </div>
-        </div>
+            </div>
+      
     );
 };
 

@@ -25,9 +25,9 @@ const DonationCardShow = ({ donation }) => {
                     />
                 </div>
                 <div className="p-6" style={{ color: text_color }}>
-                    <span className="text-xl text-left p-1" style={divStyle}>{category_name}</span>
+                    <span className="text-xl text-left p-1" style={divStyle}>{category_name} </span>
 
-                    <h4 style={{ color: text_color }} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                    <h4  className="my-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                         {title}
                     </h4>
                     <p style={{ color: text_color }} className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
